@@ -27,13 +27,13 @@ struct cliente {
     struct cliente* cliente_ant;
 };
 ```
-- `nome:`: nome do cliente
-- `documento_cliente:`: Documento de identificação do cliente.
-- `telefoneo_cliente:`: Telefone para contato.
-- `data_aluguel:`: Data do aluguel.
-- `duracao_aluguel:`: Duração do aluguel em dias.
+- `nome`: nome do cliente
+- `documento_cliente`: Documento de identificação do cliente.
+- `telefoneo_cliente`: Telefone para contato.
+- `data_aluguel`: Data do aluguel.
+- `duracao_aluguel`: Duração do aluguel em dias.
 - `prox_cliente`: Ponteiro para o próximo cliente na lista.
-- `cliente_ant:`: Ponteiro para cliente anterior.
+- `cliente_ant`: Ponteiro para cliente anterior.
 
 ### Carro
 
@@ -47,12 +47,12 @@ struct carro {
     struct carro* prox_carro;
 };
 ```
-- `codigo_carro:`: Código de identificação do carro
-- `modelo:`: Modelo do carro.
-- `preco_carro:`: Preço da diária do carro.
-- `disponibilidade:`: Disponibilidade do carro.
-- `carro_ant:`: Ponteiro para o carro anterior da lista.
-- `prox_carro:`: Ponteiro para o próximo carro da lista. 
+- `codigo_carro`: Código de identificação do carro
+- `modelo`: Modelo do carro.
+- `preco_carro`: Preço da diária do carro.
+- `disponibilidade`: Disponibilidade do carro.
+- `carro_ant`: Ponteiro para o carro anterior da lista.
+- `prox_carro`: Ponteiro para o próximo carro da lista. 
 
 ## Sistema
 
@@ -62,8 +62,8 @@ struct sistema {
     Cliente* cliente;
 };
 ```
-- `carro:`: Ponteiro para a lista de carros.
-- `cliente:`: Ponteiro para a lista de clientes.
+- `carro`: Ponteiro para a lista de carros.
+- `cliente`: Ponteiro para a lista de clientes.
 
 # Funcionalidades
 ## Menu Principal
@@ -80,15 +80,15 @@ O sistema possui um menu com as seguintes opções:
 - Sair do Menu
 
 ## Operações 
-- `Adicionar cliente::`: Permite adicionar um novo cliente ao sistema.
-- `Excluir Cliente:`: Remove um cliente existente com base no documento.
-- `Buscar Cliente:`: Pesquisa um cliente pelo nome.
-- `Consultar Clientes:`: Lista todos os clientes cadastrados.
-- `Editar Cliente: `: Atualiza os dados de um cliente.
-- `Adicionar Carro:`: Adiciona um novo carro ao sistema.
-- `Listar Carros:`: Exibe todos os carros cadastrados.
-- `Consultar Carros Disponíveis:`: Mostra os carros disponíveis para aluguel.
-- `Alugar Carro:`: Realiza o aluguel de um carro para um cliente.
+- `Adicionar cliente:`: Permite adicionar um novo cliente ao sistema.
+- `Excluir Cliente`: Remove um cliente existente com base no documento.
+- `Buscar Cliente`: Pesquisa um cliente pelo nome.
+- `Consultar Clientes`: Lista todos os clientes cadastrados.
+- `Editar Cliente`: Atualiza os dados de um cliente.
+- `Adicionar Carro`: Adiciona um novo carro ao sistema.
+- `Listar Carros`: Exibe todos os carros cadastrados.
+- `Consultar Carros Disponíveis`: Mostra os carros disponíveis para aluguel.
+- `Alugar Carro`: Realiza o aluguel de um carro para um cliente.
 
 ## Persistência de Dados
 Os dados de clientes e carros são salvos em arquivos de texto (`carros.txt` e `clientes.txt`). O sistema carrega esses dados na inicialização.
