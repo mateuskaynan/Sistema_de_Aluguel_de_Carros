@@ -94,4 +94,4 @@ O sistema possui um menu com as seguintes opções:
 Os dados de clientes e carros são salvos em arquivos de texto (`carros.txt` e `clientes.txt`). O sistema carrega esses dados na inicialização.
 
 ## Conclusão
-Este sistema oferece uma maneira simples e eficiente de gerenciar o aluguel de carros e seus clientes, facilitando operações comuns em um ambiente de aluguel. Sinta-se à vontade para personalizar e expandir o código conforme necessário!
+Este sistema oferece uma maneira simples e eficiente de gerenciar o aluguel de carros e seus clientes, facilitando operações comuns em um ambiente de aluguel.
