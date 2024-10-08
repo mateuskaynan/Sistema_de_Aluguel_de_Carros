@@ -67,7 +67,7 @@ struct sistema {
 
 # Funcionalidades
 ## Menu Principal
-- O sistema possui um menu com as seguintes opções: 
+O sistema possui um menu com as seguintes opções: 
 - Adicionar Cliente
 - Excluir Cliente
 - Buscar Cliente
