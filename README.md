@@ -47,12 +47,12 @@ struct carro {
     struct carro* prox_carro;
 };
 ```
-- `codigo_carro:`: nome do cliente
-- `modelo:`: Documento de identificação do cliente.
-- `preco_carro:`: Telefone para contato.
-- `disponibilidade:`: Data do aluguel.
-- `carro_ant:`: Duração do aluguel em dias.
-- `prox_carro:`: Ponteiro para o próximo cliente na lista.
+- `codigo_carro:`: Código de identificação do carro
+- `modelo:`: Modelo do carro.
+- `preco_carro:`: Preço da diária do carro.
+- `disponibilidade:`: Disponibilidade do carro.
+- `carro_ant:`: Ponteiro para o carro anterior da lista.
+- `prox_carro:`: Ponteiro para o próximo carro da lista. 
 
 ## Sistema
 
